@@ -37,7 +37,7 @@ $sqlp="SELECT * FROM `users` WHERE `username`='$em'";
 
 
 <?php
-//include "head.php"; ?>
+include "head.php"; ?>
 
 </head>
 
@@ -83,11 +83,11 @@ echo $_SESSION['username'];
 //     echo $row["last_sctivity"] ;
 //     if( $row["last_sctivity"]==0){
 //        ?>
-//        <script>
+       <script>
 //        document.getElementById("che").checked=false;
 //        document.getElementById("stat").innerHTML = " المنصة غير فعال";
 //        </script>
-//        <?php
+       <?php
 //     }
 // }
 ?>
